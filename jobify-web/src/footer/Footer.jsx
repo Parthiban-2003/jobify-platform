@@ -1,9 +1,11 @@
+import './Footer.css';
+
 function Footer() {
     const year = new Date().getFullYear();
     return (
         <>
-            <footer className="text-center mt-3 mb-3 text-muted">
-                © {year} Jobify-platform. All rights reserved.
+            <footer className="footer fixed-bottom text-center fs-5">
+                <p className="mb-0">© {year} Jobify-Platform. All rights reserved.</p>
             </footer>
         </>
     )
