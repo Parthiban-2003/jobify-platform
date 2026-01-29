@@ -20,13 +20,13 @@ const NavBar = () => {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ms-auto align-items-lg-center gap-lg-3">
           <li className="nav-item">
-            <Link className="nav-link fs-4" to="/jobs">Jobs</Link>
+            <Link className="nav-link fs-5" to="/jobs">Jobs</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link fs-4" to="/login">Login</Link>
+            <Link className="nav-link fs-5" to="/login">Login</Link>
           </li>
           <li className="nav-item">
-            <Link className="btn btn-light btn-sm fw-semibold fs-4" to="/register">
+            <Link className="btn btn-light btn-sm fw-semibold fs-5" to="/register">
               Register
             </Link>
           </li>
