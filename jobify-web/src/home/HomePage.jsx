@@ -110,10 +110,6 @@ const HomePage = () => {
           Register Now
         </Link>
       </div>
-
-      <footer className="text-center mt-3 mb-3 text-muted">
-        © 2026 Job Portal. All rights reserved.
-      </footer>
     </>
   );
 };
